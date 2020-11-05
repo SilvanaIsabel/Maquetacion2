@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  #contenedor{
+    width: 1200px;
+    height: 1000px;
+   /* background: #CD5C5C;*/
+    margin: 0.5em auto;
+    padding: 0.5em;
+
+}
+#header{
+    height: 15%;
+    background:#F08080;
+    border-radius: 1em;/*se redondea las esquinas*/
+    margin: 1em;
+    text-align: center;
+}
+#nav{
+    height: 10%;
+    background:#FA8072;
+    border-radius: 1em;/*se redondea las esquinas*/
+    margin: 1em;
+    text-align: center;
+
+}
+#contenido{
+    height: 53%;
+   /* background:#ffffff ;*/
+    margin: 1em;
+}
+#footer{
+    height: 15%;
+    background:#E9967A ;
+    border-radius: 1em;
+    margin: 1em;
+    text-align: center;
+}
+#section{
+    height: 95%;
+    width: 71%;
+    background:#F08080;
+    border-radius: 1em;
+    float: left;
+    margin: 0.5em;
+    text-align: center;
+}
+#aside{
+    height: 95%;
+    width: 25%;
+    background:#F08080;
+    border-radius: 1em;
+    float: right;
+    margin: 0.5em;
+    text-align: center;
+}
+/*para llamar a la clase se pone el punto y el nombre de la clase*/
+.articulo{
+    width: 96%;
+    height: 20%;
+    background: #FFA07A;
+    margin: 1em;
+    border-radius: 1em;
+    text-align: center;
+
+
+}
